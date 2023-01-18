@@ -1,0 +1,3208 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sunrise Enterprises</title>
+    		<!--BootStrap CDN Link-->
+	
+   
+      
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+       <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+       <!--Rajdhani fonts-->
+       <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@700&display=swap" rel="stylesheet"><!--heading-->
+       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;500;600&display=swap" rel="stylesheet">
+
+  <!--Lato font for-->
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+
+<!--Marin weather for product,desc and features head-->
+
+<link href="https://fonts.googleapis.com/css2?family=Allura&family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet"> 
+
+
+<link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@200&family=Niconne&family=Orelega+One&display=swap" rel="stylesheet"> 
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<script>
+  $(document).ready(function() {
+	$(window).scroll(function() {
+	if ($(this).scrollTop() > 20) {
+	$('#toTopBtn').fadeIn();
+	} else {
+	$('#toTopBtn').fadeOut();
+	}
+	});
+	
+	$('#toTopBtn').click(function() {
+	$("html, body").animate({
+	scrollTop: 0
+	}, 1000);
+	return false;
+	});
+	});
+</script>
+     
+<link rel="stylesheet" href="style.css">
+
+<!--silk slider-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" />
+     
+<!--typed.js-->
+<script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+<style>
+  .slick-next:before, .slick-prev:before {
+    color: #f70;  
+}
+#jjsbjfj{
+    display:none;
+   
+}
+.forlastchild:nth-last-child(){
+    border-bottom: none;
+   
+     
+}
+</style>
+
+</head>
+<body onresize="detectSidebar()">
+
+
+<div id="for_search_only">
+
+<div style="padding: 20px 0px;background-color: #fff;"></div>
+
+
+<!--Side bar Navigation code-->
+<div id="navWraper">
+  
+  <div class="closeBtnBox">
+     <div>
+      <i class="fas fa-close cursorPointer"  onclick="hidesideBar();" ></i> 
+     </div>
+  </div>
+
+<div class="list_ItEm">
+    <div>
+      <a href="">Home</a>
+    </div>
+</div>
+
+<div class="list_ItEm cursorPointer" onclick="showProductMenu()" >
+  <div>
+    <x>Hardware tools
+    <span class="iconWrap">
+     <i class="fas fa-angle-right"></i>
+    </x>
+  </span>
+  </div>
+ 
+</div>
+
+<div class="list_ItEm cursorPointer" onclick="showSolutionMenu()">
+  <div>
+    <x>Railway Equipments <span class="iconWrap">
+      <i class="fas fa-angle-right"></i>
+    </x>
+    </a>
+  </div>
+</div>
+
+<div class="list_ItEm cursorPointer" onclick="showAutomationMenu()" >
+  <div>
+    <x>Painting Equipments<span class="iconWrap">
+      <i class="fas fa-angle-right"></i>
+    </x>
+    </a>
+  </div>
+</div>
+
+<div class="list_ItEm">
+  <div>
+    <a href="">Saftey Equipments</a>
+  </div>
+</div>
+
+<div class="list_ItEm">
+  <div>
+    <a href="">Power and Backup</a>
+  </div>
+</div>
+
+<div class="list_ItEm lastItem">
+  <div>
+    <a href="">Contact us</a>
+  </div>
+</div>
+
+
+<div class="logowrap" style="margin-top:30px;margin-bottom:0px;transform: scale(0.7);">
+  <img src="logo/sunriselogo.png" class="img-fluid" alt="Company Logo">
+ 
+</div>
+
+<div class="list_ItEm lastItem text-center" style="margin-top: 0px;padding: 0px;margin-top: -5px;border:none;">
+  <div style="font-style: italic;font-size: 95%;color:#05619e">
+    Platform For leading Hardware products 
+  </div>
+</div>
+
+
+</div>
+<!---Side bar Navigation code close-->
+
+
+
+<!-----sub side bar for product-->
+
+<div id="nav_product_Wraper" class="forlastchild">
+  
+  <div class="tollBox">
+     <div>
+      <i class="fas fa-arrow-left cursorPointer"  onclick="showMainSidebar()" ></i> 
+     </div>
+     <div>
+   
+      <i class="fas fa-close cursorPointer rotateClose"  onclick="closeFirstTwo();" ></i> 
+     </div>
+  </div>
+
+<div class="list_ItEm current_drop_down_active">
+    <div>
+      <a href="">Product</a>
+    </div>
+</div>
+
+
+ <div class="list_ItEm">
+  <div><a href="">H/W Product1 </a></li>
+  </div>	
+ </div>
+ 
+ <div class="list_ItEm">
+    <div><a href="">H/W Product2  </a></li>
+    </div>	
+   </div>
+   
+ <div class="list_ItEm">
+    <div><a href="">H/W Product3  </a></li>
+    </div>	
+   </div>
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product4  </a></li>
+    </div>	
+   </div>
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product4  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product5  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product5  </a></li>
+    </div>	
+   </div>
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product6  </a></li>
+    </div>	
+   </div>
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product7  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product8  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product9  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product10  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product11  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product12  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product13  </a></li>
+    </div>	
+   </div>
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product14  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product15  </a></li>
+    </div>	
+   </div>
+
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product16  </a></li>
+    </div>	
+   </div>
+
+   <div class="list_ItEm">
+    <div><a href="">H/W Product17  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product18  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product19  </a></li>
+    </div>	
+   </div>
+   <div class="list_ItEm">
+    <div><a href="">H/W Product20  </a></li>
+    </div>	
+   </div>
+
+
+</div>
+
+<!----Side Bar for Solution ---->
+<div id="nav_solution_Wraper" class="forlastchild">
+  
+  <div class="tollBox">
+     <div>
+      <i class="fas fa-arrow-left cursorPointer"  onclick="showMain()" ></i> 
+     </div>
+     <div>
+   
+      <i class="fas fa-close cursorPointer rotateClose"  onclick="close_solution_and_main()" ></i> 
+     </div>
+  </div>
+
+<div class="list_ItEm current_drop_down_active">
+    <div>
+      <a href="">Railway Equipment</a>
+    </div>
+</div>
+
+
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment1</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment2</a></li>
+  </div>	
+ </div>
+
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment3</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment4</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment5</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment6</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment7</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment8</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+  <div><a href="">Equipment9</a></li>
+  </div>	
+ </div>
+
+
+
+
+</div>
+
+<!----Side Bar for Solution  closed---->
+
+<div id="nav_automation_Wraper" class="forlastchild">
+  
+  <div class="tollBox">
+     <div>
+      <i class="fas fa-arrow-left cursorPointer"  onclick="showMain_L()" ></i> 
+     </div>
+     <div>
+   
+      <i class="fas fa-close cursorPointer rotateClose"  onclick="close_automation_and_main()" ></i> 
+     </div>
+  </div>
+
+<div class="list_ItEm current_drop_down_active">
+    <div>
+      <a href="">Automation</a>
+    </div>
+</div>
+
+ <div class="list_ItEm">
+  <div><a href=""> acat1</a></li>
+  </div>	
+ </div>
+
+ <div class="list_ItEm">
+    <div><a href=""> acat2</a></li>
+    </div>	
+</div>
+
+<div class="list_ItEm">
+    <div><a href=""> acat3</a></li>
+    </div>	
+</div>
+
+
+
+</div>
+
+
+
+<!----Side Bar for automation ---->
+
+
+<!----Side Bar for automation  closed---->
+
+<!--------------->
+
+
+
+
+<div class="container-fluid" style="padding-bottom: 10px;">
+    <div class="row" >
+        <div class="col-md-6" style="padding: 0px;padding-left:8px;margin-top:0px;display:flex;align-items: center;" >
+           <div class="box">
+         
+               
+            <div class="logo" >
+                  
+                <img src="logo/sunriselogo.png" class="img-fluid ihight" alt="company logo">
+           
+             </div>
+    
+         <div  style="width:80%;display: flex;align-items: center;">
+            <div class="j">
+  <span class="cname">SUNRISE ENTERPRISES</span><br>
+     <span style="color:#f70;font-weight: bold;text-align: center;">&nbspThink to better....</span>    
+            </div>
+          
+         </div>
+                     
+      
+
+           </div>
+           
+        </div>
+               
+          
+   
+             
+             
+             <div class="col-md-6 hideonsmall" style="padding: 0px;padding-bottom: 15px;overflow: hidden;">
+         
+                <div class="row">
+
+                    <div class="col-sm-4 floatRight margin20pxonsmall" >
+                       <div class="incenter">
+                          <h3><span class="fa fa-map-signs"> </span></h3>
+                          <h6>Address</h6>
+                          Anand Nagar, Maithon,<br>Dhanbad - 828207 <br>
+                          GSTIN – 20BKCPD6161Q1Z7
+                       </div>
+                    </div>
+
+                    <div class="col-sm-4 onSmallmakeCenter margin20pxonsmall">
+                        <div class="incenter">
+                            <h3><span class="fa fa-envelope"> </span></h3>
+                            <h6> Mail Contact </h6>
+                            connecttosunrise@gmail.com
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4  floatleft margin20pxonsmall" >
+                        <div class="incenter">  
+                        <h3>  <span class="fa fa-phone"> </span></h3>
+                        <h6>7011909671 </h6>
+                        <div class="button1 button-primary1" style="position:relative;top:0;left:0;padding: 9px 15px;"> <a href="tel:+917011909671" title="+917011909671"  style="text-decoration: none;">Get a Quote</a></div>
+                        </div>
+                    </div>
+
+                    </div>
+
+                </div>
+
+         </div>
+        </div>
+
+
+<!---bar Button-->
+<div class="container-fluid margin_top" id="Hamberger" style="position: sticky;top:0px;z-index: 2;"  >
+ <div class="row tools">
+   <div>
+    <i class="fas fa-bars cursorPointer"  onclick="showsideBar();" ></i> 
+  
+   </div>
+   <div class="serchbox" style="color:#fff;align-self: center;">
+    <span class="fa fa-search cursorPointer" onclick="showSearchPage()"> </span>
+  </div>
+ </div>
+</div>
+  
+ 
+<div class="container-fluid margin_top" id="topNav" style="background-image: linear-gradient(to right,#05619e,#2fa0eb,#40adf7,#73c7ffc4);padding-left: 0px;padding-right: 0px;position: sticky;top:0;margin-bottom:0px;z-index: 88;" >
+ 
+<div class="contain">
+
+    <div class="menu-bar">
+      <ul>
+        <li><a href="#">Home</a></li>
+      </ul>
+     
+      <ul>
+        <li><a href="#">Heardware Tools</a>
+        <!-----this is first sub menu-->
+        <div class="sub-menu-1">
+          <ul>
+           
+  
+  <li><a href="">H/W tool1</a></li>
+  <li><a href="">H/W tool2</a></li>
+  <li><a href="">H/W tool3</a></li>
+  <li><a href="">H/W tool4</a></li>
+  <li><a href="">H/W tool5</a></li>
+  <li><a href="">H/W tool6</a></li>
+  <li><a href="">H/W tool7</a></li>
+  <li><a href="">H/W tool8</a></li>
+  <li><a href="">H/W tool9</a></li>
+  <li><a href="">H/W tool10</a></li>
+  <li><a href="">H/W tool1</a></li>
+  <li><a href="">H/W tool2</a></li>
+		
+
+
+          </ul>
+        </div>
+        <!------------------->
+        </li>
+      </ul>
+      <ul>
+        <li><a href="#">Railway Equipment</a>
+         <!-----this is first sub menu-->
+         <div class="sub-menu-1">
+          <ul>
+
+  
+  <li><a href="">Railway Equipment1</a></li>
+  <li><a href="">Railway Equipment2</a></li>
+  <li><a href="">Railway Equipment3</a></li>
+  <li><a href="">Railway Equipment4</a></li>
+
+  <li><a href="">Railway Equipment5</a></li>
+  <li><a href="">Railway Equipment6</a></li>
+  <li><a href="">Railway Equipment7</a></li>
+  <li><a href="">Railway Equipment8</a></li>
+		
+ 
+          </ul>
+        </div>
+        <!------------------->
+        
+        </li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Painting Equpments</a>
+         <!-----this is first sub menu-->
+         <div class="sub-menu-1">
+          <ul>
+
+  
+  <li><a href="">product1</a></li>
+  <li><a href="">product2</a></li>
+   <li><a href="">product3</a></li>
+   <li><a href="">product4</a></li>
+   <li><a href="">product5</a></li>
+   <li><a href="">product6</a></li>
+   <li><a href="">product7</a></li>
+   <li><a href="">product8</a></li>
+   <li><a href="">product9</a></li>
+   <li><a href="">product10</a></li>
+   <li><a href="">product11</a></li>
+
+        
+          </ul>
+        </div>
+        <!------------------->
+        
+        </li>
+      </ul>
+
+   
+      <ul>
+        <li><a href="#">Saftey Equipment</a>
+           <!-----this is first sub menu-->
+           <div class="sub-menu-1">
+            <ul>
+              <li><a href="">Product 1</a></li>
+              <li><a href="">Product 2</a></li>
+              <li><a href="">Product 3</a></li>
+              <li><a href="">Product 4</a></li>
+              <li><a href="">Product 5</a></li>
+              <li><a href="">Product 6</a></li>
+        
+
+       
+             
+            </ul>
+          </div>
+          <!------------------->
+        </li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Power & backup</a>
+         <!-----this is first sub menu-->
+         <div class="sub-menu-1">
+          <ul>
+
+  
+  <li><a href="">Battery1</a></li>
+  <li><a href="">Battery2</a></li>
+  <li><a href="">Battery3</a></li>
+  <li><a href="">product1</a></li>
+
+        
+          </ul>
+        </div>
+        <!------------------->
+        
+        </li>
+      </ul>
+
+      <ul>
+        <li><a href="#">Contact us</a></li>
+      </ul>
+    </div>
+ 
+<div class="serchbox" style="color:#fff;align-self: center;">
+  <span class="fa fa-search cursorPointer" onclick="showSearchPage()" > </span>
+</div>
+
+</div>
+
+</div>
+
+
+
+
+<!---slider file----->
+
+<div class="container-fluid" id="hideYeloowvSmall" >
+
+</div>
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-1">
+      <div class="row">
+        <div class="col-12 yellow1">
+        
+        </div>
+        <div class="col-12 yellow1" style="background-color: #fff;">
+        
+        </div>
+        <div class="col-12 black2" style="background-color: #222;">
+        
+        </div>
+      </div>
+    </div>
+    <div class="col-10 blackBgBottom" >
+      <div class="row">
+        <div class="col-lg-4" style="background-color: #f8f8f8;">
+     
+          <div class="enqueryNow">
+
+            <div class="bigRoundTitle text-center">
+              <div class="round-u-shape" >
+              <span data-aos="zoom-in">ENQUIRE NOW </span>  
+              </div>
+            
+            </div>
+                      <div class="containPadding2 containPadding3">
+              
+              
+             
+              
+            
+              
+                 
+                        
+                        <div class="row marginOn_large">
+                 
+                         <div class="col-12 FRr " style="margin-bottom: 20px;">
+                          
+                          <div class="row" id="pDiv" style="margin-left:0;border:1px solid #ddd;">
+                           
+                        <div class="col-2  FRr" style="padding: 0%;border:1px solid #ddd;">
+                          <div class="txt_field_icon" style="justify-self: center10">
+                            <i class="fas fa-user" id="input3b" ></i> 
+                          </div>
+                          </div>
+                          <div class="col-10" style="padding-left: 0%;padding-right: 0%;">
+                            <input type="text" Name="gName" class="input100"  placeholder="Name"  style="border:none;outline: none;color: #878787;padding-left: 10px;padding-right: 10px;display:inline-block;width:100%;"/>
+                          </div>
+                          </div>
+                          </div>
+            
+            
+                          <div class="col-12 FRr " style="margin-bottom: 20px;">
+                          
+                            <div class="row" id="pDiv" style="margin-left:0;border:1px solid #ddd;">
+                             
+                          <div class="col-2  FRr" style="padding: 0%;border:1px solid #ddd;">
+                            <div class="txt_field_icon" style="justify-self: center10">
+                              <i class="fas fa-envelope-square" id="input3b" ></i> 
+                            </div>
+                            </div>
+                            <div class="col-10" style="padding-left: 0%;padding-right: 0%;">
+                              <input type="text" Name="gName" class="input100"  placeholder="Email"  style="border:none;outline: none;color: #878787;padding-left: 10px;padding-right: 10px;"/>
+                            </div>
+                            </div>
+                            </div>
+            
+                            <div class="col-12 FRr " style="margin-bottom: 20px;">
+                          
+                              <div class="row" id="pDiv" style="margin-left:0;border:1px solid #ddd;">
+                               
+                            <div class="col-2  FRr" style="padding: 0%;border:1px solid #ddd;">
+                              <div class="txt_field_icon" style="justify-self: center10">
+                                <i class="fas fa-phone" id="input3b" ></i> 
+                              </div>
+                              </div>
+                              <div class="col-10" style="padding-left: 0%;padding-right: 0%;">
+                                <input type="text" Name="gName" class="input100"  placeholder="Phone"  style="border:none;outline: none;color: #878787;padding-left: 10px;padding-right: 10px;"/>
+                              </div>
+                              </div>
+                              </div>
+            
+                              
+                            <div class="col-12 FRr " style="margin-bottom: 20px;">
+                          
+                              <div class="row" id="pDiv" style="margin-left:0;border:1px solid #ddd;">
+                               
+                            <div class="col-2 FRr" style="padding: 0%;border:1px solid #ddd;">
+                              <div class="txt_field_icon" style="justify-self: center10">
+                                <i class="fas fa-city" id="input3b" ></i> 
+                              </div>
+                              </div>
+                              <div class="col-10" style="padding-left: 0%;padding-right: 0%;">
+                                <input type="text" Name="gName" class="input100"  placeholder="City"  style="border:none;outline: none;color: #878787;padding-left: 10px;padding-right: 10px;"/>
+                              </div>
+                              </div>
+                              </div>
+            
+                
+            
+                              <div class="col-12 FRr " style="margin-bottom: 20px;">
+                          
+                                <div class="row" id="pDiv" style="margin-left:0;border:1px solid #ddd;">
+                                 
+                              <div class="col-2  FRr" style="padding: 0%;border:1px solid #ddd;height:100px;">
+                                <div class="txt_field_icon" style="justify-self: center;padding-top: 10px;">
+                                  <i class="fas fa-envelope-open-text" id="input3b" ></i> 
+                                </div>
+                                </div>
+                                <div class="col-10" style="padding-left: 0%;padding-right: 0%;height:100px;">
+                                  <textarea  Name="gName" class="input100"  placeholder="Your Message"  style="border:none;outline: none;color: #878787;padding-left: 10px;padding-right: 10px;"></textarea>
+                                </div>
+                                </div>
+                                </div>
+
+                               
+                
+                       </div>
+                  
+                 
+                 
+                 
+                 
+                 
+                       
+                         
+                       
+             
+                       </div>
+
+                       <div class="txt-center" style="display:flex;justify-content: center;margin-top: 50px;">
+                       <button class="enqBtn">
+                        <span>Submit</span> 
+                        </button>
+                    </div>
+            
+                    </div>
+                  </div>
+
+
+        <div class="col-lg-8 topslider" style="padding:0px;">
+         
+<div class="aboutCentrexo" style="margin-bottom: 20px;color:#666;font-size: 16px;letter-spacing: 2px;font-family: 'lato',sans-serif;">
+<h1 data-aos="zoom-in" data-aos="zoom-in" style="font-family: 'Rajdhani',sans-serif;margin-top: 20px;font-weight: bold;color:#222;">
+  Sunrise Enterprise
+  <div id="typed-strings">
+    <p>for Men Power Supply</p>
+    <p>for Vechile Services</p>
+    <p>For Dg Generator Services</p>
+    <p>for CONBEXTRA GP2</p>
+    <p>For NYLON SLING </p>
+    <p>For  WIRE ROPE SLING</p>
+    <p>For  D-SHACKLE</p>
+    <p>For  DIP LORRY</p>
+    <p>For RAIL DOLLY </p>
+    <p>For ALLAST LIFTING BUCKET</p>
+    <p>For  RAIL THERMOMETER </p>
+    <p>For Saftey Equipment/p>
+    <p>For Panting material & equpments</p>
+ 
+  </div>
+  <span id="typed"  style="color:#40adf7;;"></span>
+</h1>
+<div data-aos="fade-right" data-aos-duration="6000"  data-aos-offset="300">We would like to introduce ourself as a promising startup with group of technical 
+  and marketing personnel having experience in the field. Our product range will cover
+  all types of Hydraulics and non hydraulics party of any machinery.
+  We assured to provide you genuine quality materials.
+  We deals wih following items:.....</div>
+<div data-aos="fade-right" data-aos-duration="6000"  data-aos-offset="300"class="readMore" style="margin-top:10px;  margin-bottom: 10px;">
+  <a href="" title="About Us" style="text-decoration: none;
+  color:#f70;font-weight: bold;">
+      Know More <i class="fas fa-angle-right"></i>
+  </a>
+</div>
+</div>
+
+
+
+<div class="bo78" style="overflow-x: hidden;">
+
+  
+      
+    <div class="row topSlider"   data-aos-duration="6000"  data-aos-offset="300">
+      
+      <div class="col-md-12">
+        <div class="wrap_i_T card" style="border-color: transparent;">
+          <div class="widthHeight2  camPic2 c5t" style="background-image: url(img/dg1.jpg);background-size: cover;">
+          <div class="shadowcolor">
+
+            <div class="ToPHead">
+              <div class="whiteThick txt-center" style="font-size:20px;text-align: center;">Disel Generator</div>
+              <span class="SkyThin">Service</span>
+            </div>
+            <div>
+              <p class="cnameBottom">Sunrise Enterprise</p>
+            </div>
+
+          </div>
+          </div>
+        </div>
+      </div><!---slider 1 closed-->
+
+
+
+      <div class="col-md-12">
+        <div class="wrap_i_T card" style="border-color: transparent;">
+          <div class="widthHeight2 camPic" style="background-image: url(img/menpower.jpg);background-size: cover;">
+
+            <div class="shadowcolor"
+            style=" background-image: linear-gradient(to left,rgba(194, 194, 224, 0.041),rgba(255, 238, 238, 0.836));">
+          
+            <div class="ToPHead">
+              <span class="whiteThick">Menpower</span>
+              <span class="SkyThin">Supply</span>
+            </div>
+            <div>
+              <p class="cnameBottom">Sunshine Enterprise</p>
+            </div>
+
+          </div>
+
+          </div>
+       
+        </div>
+      </div><!---slider 1 closed-->
+
+      <div class="col-md-12" >
+        <div class="wrap_i_T card" style="border-color: transparent;">
+          <div class="widthHeight2 camPic" style="background-image: url(img/vechileService.jpg);background-size: cover;">
+            <div class="shadowcolor" style="background-image: none;">
+              <div class="ToPHead">
+                <span class="whiteThick">Vechile</span>
+                <span class="SkyThin"> Services</span>
+              </div>
+              <div>
+                <p class="cnameBottom">Sunrise Enterprise</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div><!---slider 1 closed-->
+
+      <div class="col-md-12" >
+        <div class="wrap_i_T card" style="border-color: transparent;">
+          <div class="widthHeight2 camPic" style="background-image: url(img/teahub.io-hardware-wallpaper-1757789.jpg);background-size: cover;">
+            <div class="shadowcolor" style="background-image: none;">
+              <div class="ToPHead">
+                <span class="whiteThick">Hardware</span>
+                <span class="SkyThin">Tools</span>
+              </div>
+              <div>
+                <p class="cnameBottom">Sunrise Enterprise</p>
+              </div>
+            </div>
+          </div>
+  
+        </div>
+      </div><!---slider 1 closed-->
+
+
+
+    </div>
+
+
+
+</div>
+
+
+        </div>
+
+
+
+      </div>
+    </div>
+    <div class="col-1">
+      <div class="row">
+        <div class="col-12 yellow1">
+        
+        </div>
+        <div class="col-12 yellow1" style="background-color: #fff;">
+        
+        </div>
+        <div class="col-12 black2" id="matchcolor" style="background-color: #222;">
+        
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+<!--We Provide block start--------------->
+<div class="container-fluid fw5 block_on_small largMargonSm" >
+  <div class="wrap5 incresespadding" >
+  <div class="container" id="padding_0n_phone">
+    <div class="row">
+      <div class="col-sm-9" id="">
+        <div class="row th1" data-aos="fade-right" data-aos-duration="6000">
+         <h3  id="have_any_idea" >WELCOME TO THE WORLD OF Sunrise</h3> 
+        </div>
+        <div class="row th2"  data-aos="fade-left" data-aos-duration="8000"   >
+         <h1 id="leading_security" >we provide leading hardware products </h1> 
+        </div>
+      </div>
+      <div class="col-sm-3"  style="display:flex;justify-content: center;align-items: center;">
+        
+        <div class="row"  >
+          <div class="col-sm-12" >
+            <div class="text-center" >
+              <input type="submit" class="myCustomBtn" id="btnl" value="Request a Quote"  >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  <!--We Provide block end--------------->
+
+
+
+  <div class="container-fluid greenForm" id="gf2" >
+    <div class="container" id="mainConTain">
+      <div class="row">
+        <div class="col-sm-12 newForm">
+    
+          <div class="row ma20" >
+            <div class="col-sm-12 text-center gfHeading">
+
+              <h2 class="h1_txt p"  id="stripmargin" style="font-weight: bold;">Tell Your Needs</h2>
+              <div class="row" style="margin:0px;padding: 0px;">
+                <div class="lineWraper" style="width:100%;">
+                  <div class="row">
+                    <div class="col-5" style="padding: 0px;">
+                       <div class="line1 l1"   ></div>
+                    </div>
+                    <div class="col-2" style="padding: 0px;display:flex;justify-content: center;">
+                      <div class="smallDot d2"></div>
+                     </div>
+                     <div class="col-5" style="padding: 0px;">
+                       <div class="line1 l2" ></div>
+                    </div>
+                  </div>
+                </div>
+             </div>
+
+            </div>
+          </div>
+
+
+          <div class="containPadding2" >
+
+
+<!---check boxes code starts-->
+<div class="row ma20" id="hideon_small" style="margin-right: 0px;" >
+
+<div class="col-12">
+  <div class="container">
+    <div class="ITitle">
+     <h4> Interested In :</h4>
+    </div>
+  </div>
+</div>
+
+ <!---check box colom 3-->
+ <div class="col-md-6 col-lg-3">
+
+  <!---checkbox1-->
+
+  <div class="row  margin20everywhere" data-aos="flip-up"  >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+              <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Construction Vechile Services</span>  
+    </div>
+  </div>
+
+
+  <div class="row margin20everywhere" data-aos="flip-up"   >         
+      <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+          <div class="crap">
+                 <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+          </div>
+      </div>
+      <div class="col-10 " class="checkboxLabel">
+        <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Menpower Supply</span>  
+      </div>
+  </div>
+  
+  <!---checkbox2-->
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%;border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+      <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Disel generator services</span>  
+    </div>
+  </div>
+  
+  <!---checkbox3-->
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+              <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Saftey Equipments</span>  
+    </div>
+  </div>
+  <!---checkbox3-->
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+              <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Contruction Cloths and Gadgets</span>  
+    </div>
+  </div>
+    <!---checkbox4-->
+   
+  
+  </div><!---checkbox coloumn 3 closed-->
+
+
+<!---colom 1-->
+<div class="col-md-6 col-lg-3">
+
+<!---checkbox1-->
+<div class="row margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%;border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189); " >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+      <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Painting Materilas & Equipments</span>  
+    </div>
+</div>
+
+<!---checkbox2-->
+<div class="row  margin20everywhere" data-aos="flip-up"   >         
+  <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+      <div class="crap">
+             <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+      </div>
+  </div>
+  <div class="col-10 " class="checkboxLabel">
+    <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Railway Equipments</span>  
+  </div>
+</div>
+
+<!---checkbox3-->
+<div class="row  margin20everywhere" data-aos="flip-up"   >         
+  <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+      <div class="crap">
+             <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+      </div>
+  </div>
+  <div class="col-10 " class="checkboxLabel">
+            <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Power Backup</span>  
+  </div>
+</div>
+
+<!--c4-->
+<div class="row margin20everywhere" data-aos="flip-up"   >         
+  <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+      <div class="crap">
+             <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+      </div>
+  </div>
+  <div class="col-10 " class="checkboxLabel">
+    <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Saftey Cloths and gadgets</span>  
+  </div>
+</div>
+
+</div><!---checkbox coloumn 1 closed-->
+
+
+
+<!---check box colom 2-->
+<div class="col-md-6 col-lg-3">
+
+  <!---checkbox1-->
+  
+  
+  <!---checkbox2-->
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+      <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Rail Cutting Machine</span>  
+    </div>
+  </div>
+  
+  <!---checkbox3-->
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+              <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >Rail Cutting Disc</span>  
+    </div>
+  </div>
+
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+              <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" > DRILLING MACHINE</span>  
+    </div>
+  </div>
+  
+  </div><!---checkbox coloumn 2 closed-->
+
+ 
+
+
+  <!---check box colom 4-->
+<div class="col-md-6 col-lg-3">
+
+  <!---checkbox1-->
+
+  <div class="row  margin20everywhere" data-aos="flip-up"   >         
+    <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+        <div class="crap">
+               <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+        </div>
+    </div>
+    <div class="col-10 " class="checkboxLabel">
+              <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" >WOOD CUTTER</span>  
+    </div>
+  </div>
+
+  <div class="row margin20everywhere" data-aos="flip-up"   >         
+      <div class="col-2" style="padding: 0%; border:1px solid rgb(163, 163, 189);box-shadow: 0px 0px 8px 2px rgb(163, 163, 189);" >
+          <div class="crap">
+                 <input type="checkbox"   style="border:none;outline: none;color: #878787;"/>
+          </div>
+      </div>
+      <div class="col-10 " class="checkboxLabel">
+        <span class="Labelcol" style="color:rgb(104, 67, 96);font-weight: 400;" > GASKET CYLINDER FOR HONDA ENGINE</span>  
+      </div>
+  </div>
+  
+ 
+  
+  </div><!---checkbox coloumn 4 closed-->
+
+
+
+</div>
+
+<!----check boxes code end --->
+
+
+           <div class="row" >
+
+
+
+            <div class="col-md-6 FRr sDiv"  id="hideon_big2"  >
+              
+              <div  class="row"  style="margin-left:0;">
+               
+            <div class="col-1 FRr  border-botom-onsmall"   style="padding: 0%;">
+              <div class="txt_field_icon hideblackbg" style="justify-self: center;padding-top: 18px;">
+                <i class="fa fa-wpexplorer" id="input0" style="font-weight: 700;"></i> 
+              </div>
+              </div>
+              <div class="col-11  border-botom-onsmall"   style="padding-left: 0%;">
+                <select Name="Select" class="input100 hidewhtebg"  style="border:none;outline: none;padding-left: 8px;background-color: transparent;">
+                     <option>Intrested In</option>
+                     <option>Construction Vechile Services</option>
+                     <option>Menpower Supply</option>
+                     <option>Disel generator services</option>
+                     <option>Saftey Equipments</option>
+                     <option>Contruction Cloths and Gadgets</option>
+                     <option>Rail Cutting Machine</option>
+                     <option>Metal Detector</option>
+                     <option>Rail Cutting Disc</option>
+                     <option>DRILLING MACHINE</option>
+                     <option>Railway Equipments</option>
+                     <option>Power Backup</option>
+                     <option>Saftey Cloths and gadgets</option>
+                     <option>
+                      WOOD CUTTER</option>
+                     <option>GASKET CYLINDER FOR HONDA ENGINE</option>
+                </select>
+              </div>
+              </div>
+              </div>
+    
+             <div class="col-md-6 FRr " id="nDiv">
+              
+              <div class="row" style="margin-left:0;">
+               
+            <div class="col-1 FRr  border-botom-onsmall" style="padding: 0%;">
+              <div class="txt_field_icon hideblackbg" style="justify-self: center;padding-top: 18px;">
+                <i class="fas fa-heart" id="input1b"></i> 
+              </div>
+              </div>
+              <div class="col-11  border-botom-onsmall" style="padding-left: 0%;">
+                <input type="text" Name="gName" class="input100 hidewhtebg"  placeholder="Name"  style="border:none;outline: none;padding-left: 10px;"/>
+              </div>
+              </div>
+              </div>
+    
+             
+    
+                <div class="col-md-6 FRr ">
+              
+                  <div class="row" id="Emaildiv" style="margin-left:0;">
+                   
+                <div class="col-1 FRr border-botom-onsmall"  style="padding: 0%;">
+                  <div class="txt_field_icon hideblackbg" style="justify-self: center;padding-top: 18px;">
+                  <i class="fas fa-envelope-open-text" id="chngColoremail"></i> 
+                  </div>
+                  </div>
+                  <div class="col-11 border-botom-onsmall" id="emailBottom" style="padding-left: 0%;">
+                    <input type="text" Name="gName" id="Email" class="input100 hidewhtebg"  placeholder="Email"  style="border:none;outline: none;padding-left: 10px;"/>
+                  </div>
+                  </div>
+                  </div>
+    
+           </div>
+    
+           
+           <div class="row marginOn_large">
+    
+            <div class="col-md-6 FRr ">
+             
+             <div class="row" id="pDiv" style="margin-left:0;">
+              
+           <div class="col-1 FRr  border-botom-onsmall" style="padding: 0%;">
+             <div class="txt_field_icon hideblackbg" style="justify-self: center;padding-top: 18px;">
+               <i class="fas fa-phone" id="input3b" ></i> 
+             </div>
+             </div>
+             <div class="col-11  border-botom-onsmall" style="padding-left: 0%;">
+               <input type="text" Name="gName" class="input100 hidewhtebg"  placeholder="Phone Number"  style="border:none;outline: none;padding-left: 10px;"/>
+             </div>
+             </div>
+             </div>
+   
+            
+   
+               <div class="col-md-6 FRr ">
+             
+                 <div class="row" id="cDiv" style="margin-left:0;">
+                  
+               <div class="col-1 FRr  border-botom-onsmall" style="padding: 0%;">
+                 <div class="txt_field_icon hideblackbg" style="justify-self: center;padding-top: 18px;">
+                  <i class="fas fa-building" id="input4b"></i> 
+                 </div>
+                 </div>
+                 <div class="col-11  border-botom-onsmall" style="padding-left: 0%;">
+                   <input type="text" Name="gName2" class="input100 hidewhtebg" onclick="validate_cName()" onchange="validate_cName()" placeholder="Address"  style="border:none;outline: none;padding-left: 10px;"/>
+                 </div>
+                 </div>
+                 </div>
+   
+          </div>
+     
+    
+    
+    
+    
+           <div class="row marginOn_large" id="mDiv" >
+    
+            <div class="col-1" style="padding: 0%;">
+              <div class="txt_field_icon hideblackbg" style="justify-self: center;padding-top: 25px;">
+               <i class="fas fa fa-envelope" id="input5b"></i> 
+              </div>
+            </div>
+            <div class="col-11 FRr" style="display:inline-flex;width:100%;height:170px;">
+             <textarea class="txtField gName2 hidewhtebg" onclick="validate_message()" onchange="validate_message()"  placeholder="Your text here" maxlength="1000"style="display:inline-flex;width:100%;border:none;outline: none;padding-top:20px;padding-left:10px;" ></textarea>
+    
+             </div>
+          </div>
+    
+          <div class="row marg20onbig"  >
+            <div class="col-sm-12">
+              <div class="text-center">
+                <input type="submit" class="myCustomBtn" value="Submit" >
+              </div>
+            </div>
+          </div>
+
+          </div>
+    
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+<!--green form2 end-->
+
+
+<!--solution we offer-->
+<div class="container-fluid" style="padding-top: 6%;padding-bottom: 6%;">
+
+  <div class="text-center solutionWeoffer">
+
+    <div style="display:inline-block">
+       <h1 class="h1_txt"  style="color:black;">Working Sector</h1>
+       <div class="row" style="margin:0px;padding: 0px;">
+         <div class="lineWraper" style="width:100%;">
+           <div class="row">
+             <div class="col-5" style="padding: 0px;">
+                <div class="line1" style="left:10px;"></div>
+             </div>
+             <div class="col-2" style="padding: 0px;display:flex;justify-content: center;">
+               <div class="smallDot"></div>
+              </div>
+              <div class="col-5" style="padding: 0px;">
+                <div class="line1" style="right:11px;"></div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+    
+    
+  </div><!--Heading closed-->
+
+  <div class="container" style="margin-top: 4%;">
+    
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6" > 
+        <div  class="mycard">
+          <div class="mainBoxSQ">
+            <div class="Width30">
+             
+             <div class="lIcon" >
+                   
+               <img src="images/icon-img1.png" class="img-fluid" alt="company logo">
+          
+            </div>
+            </div>
+            <div class="Width70" style="overflow-x: hidden;"><br>
+             <span class="boxTitle"><h5>Machinery Maintainence</h5></span>
+             <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+             <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+       </div>
+
+      <div class="col-lg-4 col-md-6 margin30onsmall"> 
+        <div  class="mycard">
+          <div class="mainBoxSQ">
+            <div class="Width30">
+             
+             <div class="lIcon" >
+                   
+               <img src="images/icon-img2.png" class="img-fluid" alt="company logo">
+          
+            </div>
+            </div>
+            <div class="Width70" style="overflow-x: hidden;"><br>
+             <span class="boxTitle"><h5>Vechile Services</h5></span>
+             <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet 
+             </span>
+             <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+       </div>
+
+      <div class="col-lg-4 col-md-6 margin30onMd"> 
+       <div  class="mycard">
+         <div class="mainBoxSQ">
+           <div class="Width30">
+            
+            <div class="lIcon" >
+                  
+              <img src="images/icon-img3.png" class="img-fluid" alt="company logo">
+         
+           </div>
+           </div>
+           <div class="Width70" style="overflow-x: hidden;"><br>
+            <span class="boxTitle"><h5>Men Power Supply</h5></span>
+            <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+            <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+           </div>
+         </div>
+       </div>
+      </div>
+
+
+      <div class="col-lg-4 col-md-6  box_margin_top"> 
+        <div  class="mycard">
+          <div class="mainBoxSQ">
+            <div class="Width30">
+             
+             <div class="lIcon" >
+                   
+               <img src="images/icon-img4.png" class="img-fluid" alt="company logo">
+          
+            </div>
+            </div>
+            <div class="Width70" style="overflow-x: hidden;"><br>
+             <span class="boxTitle"><h5>Saftey Equipments <h5></span>
+             <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+             <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+       </div>
+
+       
+       
+
+       <div class="col-lg-4 col-md-6 box_margin_top"> 
+        <div  class="mycard">
+          <div class="mainBoxSQ">
+            <div class="Width30">
+             
+             <div class="lIcon" >
+                   
+               <img src="images/icon-img6.png" class="img-fluid" alt="company logo">
+          
+            </div>
+            </div>
+            <div class="Width70" style="overflow-x: hidden;"><br>
+             <span class="boxTitle"><h5>Painting Materila & equipments</h5></span>
+             <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+             <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+            </div>
+          </div>
+        </div>
+       </div>
+
+
+<!----last row-->
+
+<div class="col-lg-4 col-md-6 box_margin_top"> 
+  <div  class="mycard">
+    <div class="mainBoxSQ">
+      <div class="Width30">
+       
+       <div class="lIcon" >
+             
+         <img src="images/icon-img7.png" class="img-fluid" alt="company logo">
+    
+      </div>
+      </div>
+      <div class="Width70"  style="overflow-x: hidden;"><br>
+       <span class="boxTitle"><h5>Saftey Cloths</h5></span>
+       <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+       <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-lg-4 col-md-6  box_margin_top"> 
+  <div  class="mycard">
+    <div class="mainBoxSQ">
+      <div class="Width30">
+       
+       <div class="lIcon" >
+             
+         <img src="images/icon-img8.png" class="img-fluid" alt="company logo">
+    
+      </div>
+      </div>
+      <div class="Width70" style="overflow-x: hidden;"><br>
+       <span class="boxTitle"><h5>Hardware Tools</h5></span>
+       <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+       <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-lg-4 col-md-6 box_margin_top" id="makeCenter"> 
+  <div  class="mycard" >
+    <div class="mainBoxSQ">
+      <div class="Width30">
+       
+       <div class="lIcon" >
+             
+         <img src="images/icon-img9.png" class="img-fluid" alt="company logo">
+    
+      </div>
+      </div>
+      <div class="Width70" style="overflow-x: hidden;"><br>
+       <span class="boxTitle"><h5>Power & Backup</h5></span>
+       <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+       <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-lg-4 col-md-6 box_margin_top" id="makeCenter"> 
+  <div  class="mycard" >
+    <div class="mainBoxSQ">
+      <div class="Width30">
+       
+       <div class="lIcon" >
+             
+         <img src="images/icon-img1.png" class="img-fluid" alt="company logo">
+    
+      </div>
+      </div>
+      <div class="Width70" style="overflow-x: hidden;"><br>
+       <span class="boxTitle"><h5>DG generator services</h5></span>
+       <span class="textInfo" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >Nulla consequat massa quis enim. In enim justo, rhoncus ut, imperdiet</span>
+       <a href="#" class="ancher" style="text-decoration: none;"> Read More <i class="fas fa-angle-right"></i></a>
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+    </div>
+
+  </div><!--Container closed-->
+
+</div><!--container-fluid close-->
+
+<!---Importing greenForm1 File--->
+
+
+<!---Why you should choose us code--->
+
+<div class="container-fluid">
+<div class="row">
+<div class="col-lg-6 dheight"  style="background-color:rgb(163, 163, 189);background-image: url(images/fw1.jpg);background-repeat: no-repeat;background-size: cover;">
+<div class="flexWrap">
+   <div class="TransparentGreen text-center" data-aos="zoom-in">
+     <h1 style="font-family: 'Rajdhani',sans-serif;color:#fff;">Reasons Why Should
+      Choose Us?</h1>
+   </div>
+</div>
+</div>
+<div class="col-lg-6" style="padding:60px 40px;background:#f8f8f8;">
+
+  <div class="_choose_us_wraper">
+
+  <div class="row">
+
+<div class="col-md-6"> 
+  <div  class="mycard2">
+    <div class="mainBoxSQ">
+      <div class="Width2_30"  style="height:auto;">
+       
+          <i class="fa fa-clock CiconWraper" ></i>
+ 
+      </div>
+      <div class="Width70" style="overflow-x: hidden;">
+       <span class="boxTitle colorBlack"><h5>24/7/365 Support</h5></span>
+       <span class="textInfo colorSilv" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >
+        we always ready to solve the custoumer nedds , services as well as query 24/7/365.
+       </span>
+     
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-md-6  margin40onsmall" > 
+  <div  class="mycard2">
+    <div class="mainBoxSQ">
+      <div class="Width2_30"  style="height:auto;">
+       
+          <i class="fa fa-check CiconWraper" ></i>
+ 
+      </div>
+      <div class="Width70" style="overflow-x: hidden;">
+       <span class="boxTitle colorBlack"><h5>Trustworthy</h5></span>
+       <span class="textInfo colorSilv" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >
+       Most of our custoumer says Centrexo Enterprises is trustworthy .
+       </span>
+     
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-md-6 margTop2_30" > 
+  <div  class="mycard2">
+    <div class="mainBoxSQ">
+      <div class="Width2_30"  style="height:auto;">
+       
+          <i class="fa fa-money CiconWraper" ></i>
+ 
+      </div>
+      <div class="Width70" style="overflow-x: hidden;">
+       <span class="boxTitle colorBlack"><h5>Affordable Rates</h5></span>
+       <span class="textInfo colorSilv" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >
+        We provide quality product and servicies at very affordafe rates .
+       </span>
+     
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-md-6 margTop2_30" > 
+  <div  class="mycard2">
+    <div class="mainBoxSQ">
+      <div class="Width2_30"  style="height:auto;">
+       
+          <i class="fa fa-thumbs-o-up CiconWraper" ></i>
+ 
+      </div>
+      <div class="Width70" style="overflow-x: hidden;">
+       <span class="boxTitle colorBlack"><h5>Reliable and Proven</h5></span>
+       <span class="textInfo colorSilv" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >
+        We have proven our standerd and quality in Security and automation area .
+       </span>
+     
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+ <div class="col-md-6 margTop2_30" > 
+  <div  class="mycard2">
+    <div class="mainBoxSQ">
+      <div class="Width2_30"  style="height:auto;">
+       
+          <i class="fa fa-bar-chart CiconWraper" ></i>
+ 
+      </div>
+      <div class="Width70" style="overflow-x: hidden;">
+       <span class="boxTitle colorBlack"><h5>Different Range</h5></span>
+       <span class="textInfo colorSilv" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >
+        We have a huge ranges of products and services for security and automation .
+       </span>
+     
+      </div>
+    </div>
+  </div>
+ </div>
+
+ <div class="col-md-6 margTop2_30" > 
+  <div  class="mycard2">
+    <div class="mainBoxSQ">
+      <div class="Width2_30"  style="height:auto;">
+       
+          <i class="fa fa-users CiconWraper" ></i>
+ 
+      </div>
+      <div class="Width70" style="overflow-x: hidden;">
+       <span class="boxTitle colorBlack"><h5>Experts and Staff</h5></span>
+       <span class="textInfo colorSilv" data-aos="fade-left"  data-aos-duration="6000"  data-aos-offset="200" >
+        We have expert Technicition and staff Those can full fill all custoumer need .
+       </span>
+     
+      </div>
+    </div>
+  </div>
+ </div>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+</div>
+
+
+
+
+
+<!----Our Working process start here-->
+<div class="container-fluid fw2 marginonmax" style="padding-top: 4%;padding-bottom: 4%;">
+
+  <div class="text-center solutionWeoffer">
+
+    <div style="display:inline-block">
+       <h1 class="h1_txt" style="color:#fff;">Our Process</h1>
+
+
+       <div class="row" style="margin:0px;padding: 0px;">
+        <div class="lineWraper" style="width:100%;">
+          <div class="row">
+            <div class="col-5" style="padding: 0px;">
+               <div class="line1" style="border-color: #fff;"></div>
+            </div>
+            <div class="col-2" style="padding: 0px;display:flex;justify-content: center;">
+              <div class="smallDot" style="background-color: rgb(163, 163, 189);"></div>
+             </div>
+             <div class="col-5" style="padding: 0px;">
+               <div class="line1" style="border-color: #fff;"></div>
+            </div>
+          </div>
+        </div>
+     </div>
+
+     </div>
+
+     </div>
+
+     <div class="container" style="padding-top: 3%;padding-bottom: 3%;">
+
+   <div class="row">
+    <div class="col-md-6 col-lg-3 margin20onsmall" style="display: flex;justify-content: center;align-items: center;">
+          <div class="biground" data-aos="zoom-in">
+            
+            <div class="cirdcle1">
+
+              <div class="cirdcle2 text-center">
+                 <!--put icons and title and description here-->
+                 <h3><i class="fa fa-cogs"> </i></h3>
+                 <h5>Your Need</h5>
+                 <h6>Search the Service You need</h6>
+              </div>
+               
+            </div>
+          </div>
+      </div>
+    
+      <div class="col-md-6 col-lg-3 margin40onsmall" style="display: flex;justify-content: center;align-items: center;">
+        <div class="biground" data-aos="zoom-in">
+          
+          <div class="cirdcle1">
+
+            <div class="cirdcle2 text-center">
+               <!--put icons and title and description here-->
+               <h3><i class="fa fa-envelope-square"> </i></h3>
+               <h5>Enquiry</h5>
+               <h6>For enquiring make a call or mail us</h6>
+            </div>
+             
+          </div>
+        </div>
+    </div>
+
+    <div class="col-md-6 col-lg-3 margin30onMd margin40onsmall" style="display: flex;justify-content: center;align-items: center;">
+      <div class="biground" data-aos="zoom-in">
+        
+        <div class="cirdcle1">
+
+          <div class="cirdcle2 text-center">
+             <!--put icons and title and description here-->
+             <h3><i class="fa fa-check-square-o"> </i></h3>
+             <h5>Confirm</h5>
+             <h6>Get your Quote and confirm us</h6>
+          </div>
+           
+        </div>
+      </div>
+  </div>
+
+  <div class="col-md-6 col-lg-3 margin30onMd margin40onsmall" style="display: flex;justify-content: center;align-items: center;">
+    <div class="biground"data-aos="zoom-in">
+      
+      <div class="cirdcle1" >
+
+        <div class="cirdcle2 text-center">
+           <!--put icons and title and description here-->
+           <h3><i class="fa fa-smile-o"> </i></h3>
+           <h5>Stay Calm</h5>
+           <h6>Feel free and Relax Yourself</h6>
+        </div>
+         
+      </div>
+    </div>
+
+    
+</div>
+
+   </div>
+           
+      </div>
+
+<div class="row">
+  <div class="col-12 text-center">
+    <p class="pCall" >
+      Want to know more? It’s as easy.. Call Us on
+     <span class="dt-skin-primary-color">(91) 7011909671</span>
+    </p>
+  </div>
+</div>
+
+</div>
+
+
+<!--our product start-->
+<div class="container-fluid" style="padding-top: 40px;padding-bottom: 40px;">
+
+  <div class="text-center solutionWeoffer">
+
+    <div style="display:inline-block">
+       <h1 class="h1_txt" style="color:#222222;">Our Product</h1>
+       <div class="row" style="margin:0px;padding: 0px;">
+         <div class="lineWraper" style="width:100%;">
+           <div class="row">
+             <div class="col-5" style="padding: 0px;">
+                <div class="line1" ></div>
+             </div>
+             <div class="col-2" style="padding: 0px;display:flex;justify-content: center;">
+               <div class="smallDot"></div>
+              </div>
+              <div class="col-5" style="padding: 0px;">
+                <div class="line1" ></div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+    
+    
+  </div><!--Heading closed-->
+
+  <div class="container">
+
+
+
+  <div class="row" id="box_row2">
+
+    <div class="col-md-4 paddLR margin20onsmall">   
+     <div class="insideMainBox"  >
+
+         <div class="productwrap" id="ibR1" data-aos="zoom-in">
+
+            <h5 class="text-center">
+              <a href="" title="Intruder Alarm System">Honda DG generator <i class="count">(10)</i>
+              </a>
+            </h5>
+
+            <div class="product-thumb">
+         
+              <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+
+              <div class="Pimage">
+                <img class="dg" src="img/dg.png" alt="Intruder Alarm System"  >
+              </div>
+          
+            </a>
+            </div>
+
+            <div class="product-details">
+              <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+                    Know More <i class="fas fa-angle-right"></i>
+               </a>
+            </div><!--Product Thumnails closed-->
+
+        </div>
+     </div>
+  </div>
+
+
+  <div class="col-md-4 paddLR margin40onsmall" id="box_to_be_centerd_center" style="position:relative;">   
+    <div class="insideMainBox">
+
+        <div class="productwrap" id="ibR3" data-aos="zoom-in">
+
+           <h5 class="text-center">
+             <a href="" title="Intruder Alarm System">
+              Saftey Dress & Equipments <i class="count">(35)</i>
+             </a>
+           </h5>
+
+           <div class="product-thumb">
+        
+             <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+
+             <div class="Pimage">
+               <img class="dg" src="img/pngwing.com (2).png" alt="Intruder Alarm System"  >
+             </div>
+         
+           </a>
+           </div>
+
+           <div class="product-details">
+             <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+                   Know More <i class="fas fa-angle-right"></i>
+              </a>
+           </div><!--Product Thumnails closed-->
+
+       </div>
+    </div>
+ </div>
+
+ <div class="col-md-4 paddLR margin40onsmall">   
+  <div class="insideMainBox" >
+
+      <div class="productwrap" id="ibR2" data-aos="zoom-in">
+
+         <h5 class="text-center">
+           <a href="" title="Intruder Alarm System">
+            Rail Cutting Machines<i class="count">(5)</i>
+           </a>
+         </h5>
+
+         <div class="product-thumb">
+      
+           <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+
+           <div class="Pimage">
+             <img class="dg" src="img/kisspng-ceramic-tile-cutter-cutting-tool-marble-5af5e3b64b6b70.7001825215260640543089.png" alt="Intruder Alarm System"  >
+           </div>
+       
+         </a>
+         </div>
+
+         <div class="product-details">
+           <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+                 Know More <i class="fas fa-angle-right"></i>
+            </a>
+         </div><!--Product Thumnails closed-->
+
+     </div>
+  </div>
+</div>
+
+
+  </div><!---row1 closed-->
+
+
+<!--row 2 start-->
+
+
+
+<div class="row" id="box_row1" >
+
+  <div class="col-md-4 paddLR  margin20onsmall">   
+   <div class="insideMainBox" >
+
+       <div class="productwrap" id="ibR2A" data-aos="zoom-in">
+
+          <h5 class="text-center">
+            <a href="" title="Intruder Alarm System">
+              Wood Cutting Machines<i class="count"> (5)</i>
+            </a>
+          </h5>
+
+          <div class="product-thumb">
+       
+            <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+
+            <div class="Pimage">
+              <img class="dg" src="img/chainsaw-cutting-tool-Бензопила-chainsaw-98cf9a8b11b533042cff5d84e5a9fa6c.png" alt="Intruder Alarm System"  >
+            </div>
+        
+          </a>
+          </div>
+
+          <div class="product-details">
+            <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+                  Know More <i class="fas fa-angle-right"></i>
+             </a>
+          </div><!--Product Thumnails closed-->
+
+      </div>
+   </div>
+</div>
+
+
+<div class="col-md-4 paddLR" style="z-index: -8888;">   
+ <!---Blank row-->
+</div>
+
+<div class="col-md-4 paddLR margin40onsmall">   
+<div class="insideMainBox" >
+
+    <div class="productwrap" id="ibR2B" data-aos="zoom-in">
+
+       <h5 class="text-center">
+         <a href="" title="Intruder Alarm System">
+          Painting materilas and Equipments
+          <i class="count">(3)</i>
+         </a>
+       </h5>
+
+       <div class="product-thumb">
+    
+         <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+
+         <div class="Pimage">
+           <img class="dg" src="img/paintbrush-bucket-vector-paint-tools-and-the-paint-bucket-b81074f9ff0d180488ce6b999b7d0dfa.png" alt="Intruder Alarm System"  >
+         </div>
+     
+       </a>
+       </div>
+
+       <div class="product-details">
+         <a href="https://kanni.wpengine.com/product-category/intruder-alarm-system/" title="Intruder Alarm System">
+               Know More <i class="fas fa-angle-right"></i>
+          </a>
+       </div><!--Product Thumnails closed-->
+
+   </div>
+</div>
+</div>
+
+
+</div><!---row2 closed-->
+
+
+<div class="row text-center BtnViewProduct"  style="display: flex;justify-content: center;">
+
+  <input type="submit" class="myCustomBtn" value="view All" />
+
+</div>
+
+  </div>
+
+  </div>
+
+
+
+
+
+<!---------------card slider --------------->
+
+
+<!--our product start-->
+<div class="container-fluid" style="padding-top: 40px;padding-bottom: 40px;">
+
+  <div class="text-center solutionWeoffer">
+
+    <div style="display:inline-block">
+       <h1 class="h1_txt" style="color:#222222;">Our Services</h1>
+       <div class="row" style="margin:0px;padding: 0px;">
+         <div class="lineWraper" style="width:100%;">
+           <div class="row">
+             <div class="col-5" style="padding: 0px;">
+                <div class="line1" ></div>
+             </div>
+             <div class="col-2" style="padding: 0px;display:flex;justify-content: center;">
+               <div class="smallDot"></div>
+              </div>
+              <div class="col-5" style="padding: 0px;">
+                <div class="line1" ></div>
+             </div>
+           </div>
+         </div>
+      </div>
+    </div>
+    
+    
+  </div><!--Heading closed-->
+
+  <div class="container" style="margin-top:40px;">
+    <div class="row slider">
+
+
+      <div class="col-md-12" >
+        <div class="wrap_i_T card">
+          <div class="ImgThumbnails">
+            <img  class="img-fluid" src="img/dg1.jpg" alt="fire alarm system" >
+          </div>
+          <div class="textWrap">
+            <h5 class="Stitle"><a href="#">We Provide services for all type of DG generators</a></h5>
+            <div class="description">
+              This is alll the description. it have some more text let see alll thes text on read more button
+              on read more button
+              on read more button
+            </div>
+            
+             <div class="readMore" style="margin-top:40px;  margin-bottom: 40px;">
+                 <a href="" title="know more">
+                     Know More <i class="fas fa-angle-right"></i>
+                 </a>
+             </div>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-12">
+        <div class="wrap_i_T card" >
+          <div class="ImgThumbnails">
+            <img  class="img-fluid" src="img/jcb.jpg" alt="fire alarm system" >
+          </div>
+          <div class="textWrap">
+            <h5 class="Stitle"><a href="#">We provide Services for the construction vechiles</a></h5>
+            <div class="description">
+              This is alll the description. it have some more text let see alll thes text on read more button
+              on read more button
+              on read more button
+            </div>
+            
+             <div class="readMore" style="margin-top:40px;  margin-bottom: 40px;">
+                 <a href="" title="know more">
+                     Know More <i class="fas fa-angle-right"></i>
+                 </a>
+             </div>
+
+          </div>
+        </div>
+      </div><!---slider 2 closed-->
+
+      <div class="col-md-12">
+        <div class="wrap_i_T card">
+          <div class="ImgThumbnails">
+            <img  class="img-fluid" src="img/machinery.jpg" alt="fire alarm system" >
+          </div>
+          <div class="textWrap">
+            <h5 class="Stitle"><a href="#">Machinery Maintainence</a></h5>
+            <div class="description">
+              This is alll the description. it have some more text let see alll thes text on read more button
+              on read more button
+              on read more button
+            </div>
+            
+             <div class="readMore" style="margin-top:40px;  margin-bottom: 40px;">
+                 <a href="#" title="know more">
+                     Know More <i class="fas fa-angle-right"></i>
+                 </a>
+             </div>
+
+          </div>
+        </div>
+      </div><!---slider 3 closed-->
+
+      <div class="col-md-12">
+        <div class="wrap_i_T card">
+          <div class="ImgThumbnails">
+            <img  class="img-fluid" src="img/menpower - Copy.jpg" alt="fire alarm system" >
+          </div>
+          <div class="textWrap">
+            <h5 class="Stitle"><a href="#">We suplly the best menpower</a></h5>
+            <div>
+             This is alll the description. it have some more text let see alll thes text on read more button
+              on read more button
+              on read more button
+            </div>
+            
+             <div class="readMore" style="margin-top:40px;  margin-bottom: 40px;">
+                 <a href="" title="know more">
+                     Know More <i class="fas fa-angle-right"></i>
+                 </a>
+             </div>
+
+          </div>
+        </div>
+      </div><!---slider 4 closed-->
+
+
+    </div>
+  </div>
+
+  </div>
+
+
+<!--green form1.html-->
+
+
+<div class="container-fluid greenForm">
+    <div class="container" id="mainConTain2" >
+      <div class="row" style="margin-left: 0%;">
+        <div class="col-sm-12" >
+    
+          <div class="row">
+            <div class="col-sm-12 text-center gfHeading" data-aos="zoom-in-down" style="color:#222;margin-bottom: 30px;">Get a Free Assessment  by Our Expert</div>
+          </div>
+    
+        <div class="containPadding">
+           <div class="row">
+    
+             <div class="col-lg-4 FRr ">
+              
+              <div class="row" style="margin-left:0;">
+               
+            <div class="col-1 FRr" style="padding: 0%;">
+              <div class="txt_field_icon" style="justify-self: center;padding-top: 18px;">
+                <i class="fas fa-heart cursorPointer"></i> 
+              </div>
+              </div>
+              <div class="col-11" style="padding-left: 0%;">
+                <input type="text" Name="gName" class="input100"  placeholder="Name"  style="border:none;outline: none;color: #878787;padding-left: 10px;"/>
+              </div>
+              </div>
+              </div>
+    
+              <div class="col-lg-4 FRr marg2">
+              
+                <div class="row" style="margin-left:0;">
+                 
+              <div class="col-1 FRr" style="padding: 0%;">
+                <div class="txt_field_icon" style="justify-self: center;padding-top: 18px;">
+                  <i class="fas fa-building cursorPointer"></i> 
+                </div>
+                </div>
+                <div class="col-11" style="padding-left: 0%;">
+                  <input type="text" Name="gName" class="input100"  placeholder="City"  style="border:none;outline: none; color: #878787;padding-left: 10px;"/>
+                </div>
+                </div>
+                </div>
+    
+                <div class="col-lg-4 FRr ">
+              
+                  <div class="row" style="margin-left:0;">
+                   
+                <div class="col-1 FRr" style="padding: 0%;">
+                  <div class="txt_field_icon" style="justify-self: center;padding-top: 18px;">
+                   &nbsp <i class="fas fa-mobile cursorPointer"></i> 
+                  </div>
+                  </div>
+                  <div class="col-11" style="padding-left: 0%;">
+                    <input type="text" Name="gName" class="input100"  placeholder="Mobile"  style="border:none;outline: none;color: #878787;padding-left: 10px;"/>
+                  </div>
+                  </div>
+                  </div>
+    
+           </div>
+    
+     
+    
+           <div class="row" style="margin-top:30px;">
+    
+            <div class="col-1 FRr" style="padding: 0%;">
+              <div class="txt_field_icon" style="justify-self: center;padding-top: 18px;">
+                <i class="fas fa-map cursorPointer"></i> 
+              </div>
+              </div>
+    
+             <div class="col-11 FRr" >
+                <input type="text" Name="gName" class="input100" placeholder="Address" style="border:none;outline: none;color: #878787;padding-left:10px;"/>
+              </div>
+    
+           </div>
+    
+    
+    
+           <div class="row" style="margin-top:30px;">
+    
+            <div class="col-1" style="padding: 0%;">
+              <div class="txt_field_icon" style="justify-self: center;padding-top: 25px;">
+                <i class="fas fa fa-envelope cursorPointer"></i> 
+              </div>
+            </div>
+            <div class="col-11 FRr" style="display:inline-flex;width:100%;height:100px;">
+             <textarea class="txtField"  placeholder="Message" maxlength="1000"style="display:inline-flex;width:100%;border:none;outline: none;padding-top:20px;  color: #878787;padding-left:10px;" ></textarea>
+    
+             </div>
+          </div>
+    
+          <div class="row" id="btnfrm1" style="margin-top: 30px;">
+            <div class="col-sm-12">
+              <div class="text-center">
+                <input type="submit" class="myCustomBtn" value="Submit" >
+              </div>
+            </div>
+          </div>
+    </div>
+    
+        </div>
+      </div>
+    </div>
+    </div>
+
+    <!---green form1 end-->
+   
+
+
+
+  <div class="container-fluid" style="padding-top: 10%;padding-bottom: 10%;">
+
+    <div class="text-center solutionWeoffer">
+  
+      <div style="display:inline-block">
+         <h1 class="h1_txt" style="color:#222222;">Our Clients</h1>
+         <div class="row" style="margin:0px;padding: 0px;">
+           <div class="lineWraper" style="width:100%;">
+             <div class="row">
+               <div class="col-5" style="padding: 0px;">
+                  <div class="line1" ></div>
+               </div>
+               <div class="col-2" style="padding: 0px;display:flex;justify-content: center;">
+                 <div class="smallDot"></div>
+                </div>
+                <div class="col-5" style="padding: 0px;">
+                  <div class="line1" ></div>
+               </div>
+             </div>
+           </div>
+        </div>
+      </div>
+      
+      
+    </div><!--Heading closed-->
+  
+    <div class="container" style="margin-top:40px;">
+      
+      <div class="row brandSlider">
+        
+        <div class="col-md-12">
+          <div class="wrap_i_T card">
+            <div class="ImgThumbnails widthHeight">
+              <img  class="img-fluid" src="logo/kalpatru.jpg" alt="fire alarm system" >
+            </div>
+            <div class="textWrap">
+              <h5 class="Stitle" style="margin-top:10px;text-align: center;margin-bottom:10px;"><a href="#">Kalpatru P.T.L</a></h5>
+            </div>
+          </div>
+        </div><!---slider 1 closed-->
+
+        <div class="col-md-12">
+          <div class="wrap_i_T card">
+            <div class="ImgThumbnails widthHeight">
+              <img  class="img-fluid" src="logo/KEC International Limited.jpg" alt="fire alarm system" >
+            </div>
+            <div class="textWrap">
+              <h5 class="Stitle" style="margin-top:10px;text-align: center;margin-bottom:10px;"><a href="#">KEC International Limited</a></h5>
+            </div>
+          </div>
+        </div><!---slider 1 closed-->
+
+     
+
+        <div class="col-md-12">
+          <div class="wrap_i_T card">
+            <div class="ImgThumbnails widthHeight">
+              <img  class="img-fluid" src="logo/arcon.jpg" alt="fire alarm system" >
+            </div>
+            <div class="textWrap">
+              <h5 class="Stitle" style="margin-top:10px;text-align: center;margin-bottom:10px;"><a href="#">Aircon ENGINEERING,INC</a></h5>
+            </div>
+          </div>
+        </div><!---slider 1 closed-->
+
+        <div class="col-md-12">
+          <div class="wrap_i_T card">
+            <div class="ImgThumbnails widthHeight">
+              <img  class="img-fluid" src="logo/lt.jpg" alt="fire alarm system" >
+            </div>
+            <div class="textWrap">
+              <h5 class="Stitle" style="margin-top:10px;text-align: center;margin-bottom:10px;"><a href="#">LARSEN & TOUBRO</a></h5>
+            </div>
+          </div>
+        </div><!---slider 1 closed-->
+
+        <div class="col-md-12">
+          <div class="wrap_i_T card">
+            <div class="ImgThumbnails widthHeight">
+              <img  class="img-fluid" src="logo/ASHOKA.jpg" alt="fire alarm system" >
+            </div>
+            <div class="textWrap">
+              <h5 class="Stitle" style="margin-top:10px;text-align: center;margin-bottom:10px;"><a href="#">ASHOKA</a></h5>
+            </div>
+          </div>
+        </div><!---slider 1 closed-->
+
+        <div class="col-md-12">
+          <div class="wrap_i_T card">
+            <div class="ImgThumbnails widthHeight">
+              <img  class="img-fluid" src="logo/ISC.jpg" alt="fire alarm system" >
+            </div>
+            <div class="textWrap">
+              <h5 class="Stitle" style="margin-top:10px;text-align: center;margin-bottom:10px;"><a href="#">ISC PROJECTS</a></h5>
+            </div>
+          </div>
+        </div><!---slider 1 closed-->
+
+
+
+      </div>
+
+    </div>
+</div>
+
+
+
+<!--We Provide block start--------------->
+<div class="container-fluid fw5 hide_block">
+  <div class="wrap5">
+  <div class="container" id="padding_0n_phone">
+    <div class="row">
+      <div class="col-sm-9" id="">
+        <div class="row th1"  data-aos="fade-right" data-aos-duration="6000">
+         <h3  id="have_any_idea" >Have any ideas in your mind ?</h3> 
+        </div>
+        <div class="row th2"  data-aos="fade-left" data-aos-duration="8000">
+         <h1 id="leading_security" >we provide best machinery tools, equipments and services </h1> 
+        </div>
+      </div>
+      <div class="col-sm-3"  style="display:flex;justify-content: center;align-items: center;">
+        
+        <div class="row"  >
+          <div class="col-sm-12" >
+            <div class="text-center" >
+              <input type="submit" class="myCustomBtn" id="btnl" value="Request a Quote"  >
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+  <!--We Provide block end--------------->
+
+
+  
+
+
+<!--<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&amp;display=swap" rel="stylesheet">-->
+
+
+
+<!---footer start here--->
+
+<div class="container-fluid fotte_r" >
+    <div class="cust_container">
+        <div class="row">
+           
+            <!--First coloumn-->
+            <div class="col-lg-4 col-md-6" >
+               <div class="fotter_col_wraper footerText">
+                <h4>About Us</h4>
+                <div class="footerText">
+                 loren ipsum dolor sit constructor loren ipsum dolor sit constructor    loren ipsum dolor sit constructor  loren ipsum dolor sit constructor 
+                </div>
+                <div class="footerText angel_margin">
+               
+        
+                        <div class="angelWraper">
+                            <i class="fas fa-map-marker"></i>
+                        </div>
+                        <div class="linkTitle">
+                          Anand Nagar, Maithon,
+                          Dhanbad - 828207
+                          GSTIN – 20BKCPD6161Q1Z7
+                        </div>
+                  
+                </div>
+                <div class="footerText">
+                    <span  id="mail"> <i class="fa fa-envelope"></i>connecttosunrise@gmail.com</span>
+                </div>
+                <div class="footerText">
+                    <span id="phone"> <i class="fa fa-phone"></i>+91 7011909671
+                    </span>
+                </div>
+               </div>
+            </div>
+
+                <!--second coloumn-->
+                <div class="col-lg-4 col-md-6 qucik-col">
+                    <div class="fotter_col_wraper footerText">
+                     <h4>Quick Links</h4>
+                    
+<div class="row footerText">
+
+<div class="col-sm-6">
+    <div class="angel_margin">
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle"> Hardware Tools
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_sm_575">
+    <div class="angel_margin">
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          Railway Equipment
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+        painting equipments
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          Saftey Equipment
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          Power & backup
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          Saftey Cloths
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          GASKET CYLINDER 
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          DRILLING MACHINE<span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+         DG generators<span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+          Rail Cutting Machine<span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>
+
+<!--<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">Access Control System<span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+            Canteen Managment System <span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+            Visitor Managment System <span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>
+
+<div class="col-sm-6 margin_20_top">
+    <div class="angel_margin">
+        
+        <div class="angelWraper">
+            <i class="fas fa-angle-right"></i>
+        </div>
+        <div class="linkTitle">
+            Elevator Managment System <span><i class="fas fa-angel-bottom"></i></span>
+        </div>
+    </div>
+</div>-->
+
+</div>
+
+                    </div>
+                 </div>
+
+
+
+ <!--Third coloumn-->
+ <div class="col-lg-4 col-md-6" >
+    <div class="fotter_col_wraper footerText">
+     <h4>Newsletter</h4>
+     <div class="footerText">
+        Signup for Our mailing list to get latest Updates and Offers
+     </div>
+     <div class="footerText">
+ <form action="#" style="display:block;">
+      <div class="row nlinput" style="margin-right: 0px;">
+       
+          <div class="col-9" style="padding-right: 0px;"> 
+            
+         
+
+           
+            <input type="text" Name="gName" class="input100" placeholder="Enter Email Address" style="border:none;outline: none;color: #878787;padding-left:10px;"/>
+    
+          </div>
+          <div class="col-3" style="padding-right: 20px;padding-left: 0px;">
+            <button type="submit" class="btn-aero" style="width:100%;height:100%;border:none;outline: none;">
+                <div class="aero-wraper">
+                    <i class="fa fa-paper-plane-o"></i>
+                </div>
+            </button>
+           
+        </div>
+   
+      </div>
+</form>
+     </div>
+
+     <div class="footerText">
+        We respect your privacy
+     </div>
+
+     <div class="footerText" style="margin-top: 40px;">
+ 
+<!---Socical Icon-->
+<div class="socicalBox">
+  
+    <a href=""><i class="fa fa-facebook"></i></a>
+    <a href=""><i class="fa fa-twitter"></i></a>
+    <a href=""><i class="fa fa-linkedin"></i></a>
+</div>
+
+<!-----socical icon closed-->
+
+     </div>
+    
+    </div>
+ </div>
+
+
+
+
+
+        </div>
+    </div>
+</div>
+
+<a href="#" id="toTopBtn" class="cd-top text-replace js-cd-top cd-top--is-visible cd-top--fade-out" data-abc="true" title="scroll to top"></a>
+
+<div class="footerWraper2">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12 copyRighttxt" style="display:flex;justify-content: center;color:#222;font-weight:bold">
+            © 2023 Sunrise Enterprises All Rights Reserved | Developed by G.Tech<span id="copyRight"></span>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!----<div class="FixedButns">
+  
+    <div class="fxd_btn_wrap">
+      
+        <div class="fxd_btns">
+<i class="fa fa-envelope"></i>Enquiry 
+        </div>
+        <div class="fxd_btns" style="margin-top: 20px;">
+<i class="fa fa-cogs"></i>Login
+        </div>
+    </div>
+
+</div>--->
+
+
+<!---footer end here----->
+
+</div>
+
+
+
+
+
+<div class="container-fluid"  id="full_page_search_bar">
+
+  <div class="row">
+    <div class="col-sm-12" style="display:flex;justify-content: flex-end;">
+      <div class="cross_icon cursorPointer" onclick="HideSearchPage()" title="Close Search Box">
+        <i class="fas fa-close cursorPointer rotateClose"  onclick="close_automation_and_main()" ></i> 
+      </div>
+    </div>
+  </div>
+
+
+  <div class="zzz">
+  <form action="#" style="display:block;">
+    <div class="row nlinput" style="margin-right: 0px;">
+     
+        <div class="col-10" style="padding-right: 0px;border-bottom:1px solid #ddd;">         
+          <input type="text" Name="gName" class="input100" id="searchInputId" placeholder="Enter Product / services" style="border:none;outline: none;color: #878787;padding-left:10px;"/> 
+        </div>
+        <div class="col-1" style="border-bottom:1px solid #ddd;">
+          <button type="submit" class="btn-aero" id="searchBtn" style="width:100%;height:100%;border:none;outline: none;">
+              <div class="aero-wraper" style="justify-content: flex-start;">
+                  <i class="fa fa-search"></i>
+              </div>
+          </button>
+         
+      </div>
+ 
+    </div>
+</form>
+</div>
+
+ 
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js" integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A==" crossorigin="anonymous"></script>
+
+
+<script>
+  //for deal in brand slider
+  $('.topSlider').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows:false,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        infinite: true,
+        dots: false
+        
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        infinite: true,
+        dots: false
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+
+
+
+
+
+
+
+
+<script>
+  $('.slider').slick({
+  dots: true,
+  infinite:true,
+  speed: 300,
+  slidesToShow: 3,
+  slidesToScroll: 1,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        infinite: true,
+        dots: true
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        infinite: true,
+        dots: true
+        
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows:false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        arrows:false
+      }
+    }
+  ]
+});
+</script>
+
+<script>
+  //for deal in brand slider
+  $('.brandSlider').slick({
+  slidesToShow: 4,
+  slidesToScroll: 1,
+  arrows:true,
+  autoplay: true,
+  autoplaySpeed: 2000,
+  responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        arrows:true,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows:true,
+        infinite: true,
+        dots: false
+        
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+        slidesToScroll: 2,
+        arrows:false,
+        infinite: true,
+        dots: false
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        arrows:false,
+        infinite: true,
+        dots: false
+      }
+    }
+    // You can unslick at a given breakpoint now by adding:
+    // settings: "unslick"
+    // instead of a settings object
+  ]
+});
+</script>
+
+<script>
+
+$(document).ready(render_messonary);
+$(window).resize(render_messonary);
+
+    function render_messonary()
+    {
+
+      //renderinng only on medium to large scrren
+      if($(window).width() > 767){
+    var height_of_box = $("#box_row1").innerHeight();  //height of row1
+    var height_of_box2 = $("#box_row2").innerHeight();//height of row2
+    var box_to_be_centerd_center = $("#box_to_be_centerd_center").innerHeight();//height of box to be centerd
+
+    var new_pos = ((height_of_box + height_of_box2 + 30) - box_to_be_centerd_center   ) /2  ;
+
+    $("#box_to_be_centerd_center").css("top",new_pos);//positioning middle box vertically center betweeb these two rows
+  
+    /*finding max width of coloumn for row 1*/
+    var box1 = $("#ibR1").innerHeight();
+    var box2 = $("#ibR2").innerHeight();
+    var box3 = $("#ibR3").innerHeight();
+    var max=0;
+
+
+
+    if(box1 > box2){
+      if(box1 > box3){
+        max=box1;
+      }
+      else{
+        max=box3;
+      }
+    }
+    else{
+      if(box2 > box3){
+        max = box2;
+      }
+      else{
+        max = box3;
+      }
+    }
+
+    /*setting all the 3 coloumns to the max heighted coloumns for row 1*/
+    if(max!=0 && ($(window).width() > 767)){
+      $("#ibR1").innerHeight(max);
+      $("#ibR2").innerHeight(max);
+      $("#ibR3").innerHeight(max);
+    }
+/****************************************************/
+var r2box1 = $("#ibR2A").innerHeight();
+var r2box2 = $("#ibR2B").innerHeight();
+var maxR2 = 0;
+
+if(r2box1>r2box2){maxR2=r2box1;}
+else if(r2box2>r2box1){maxR2=r2box2;}
+
+if(maxR2!=0 ){
+  $("#ibR2A").innerHeight(maxR2);
+  $("#ibR2B").innerHeight(maxR2);  
+}
+ 
+}//if closed
+
+else{
+  $("#box_to_be_centerd_center").css("top",0);
+
+ 
+}
+  
+}//function closed
+ 
+</script>
+
+<script>
+  function hidesideBar(){
+    document.getElementById("navWraper").style.marginRight="-500px";
+    document.getElementById("toTopBtn").style.display="block";
+  }
+  
+  function showsideBar(){
+    var currentWidth = parseInt(window.innerWidth);
+    if(currentWidth < 640)
+    document.getElementById("navWraper").style.marginRight="0px";
+    document.getElementById("toTopBtn").style.display="none";
+  }
+
+  function detectSidebar(){
+    var currentWidth = parseInt(window.innerWidth);
+
+  /*detcting main side bar*/  
+  if(currentWidth > 640 && (document.getElementById("navWraper").style.marginRight == "0px"))
+  document.getElementById("navWraper").style.marginRight="-500px";
+
+    /*detcting product bar*/  
+    if(currentWidth > 640 && (document.getElementById("nav_product_Wraper").style.marginRight == "0px"))
+  document.getElementById("nav_product_Wraper").style.marginRight="-500px";
+
+  
+    /*detcting solution bar*/  
+    if(currentWidth > 640 && (document.getElementById("nav_solution_Wraper").style.marginRight == "0px"))
+    document.getElementById("nav_solution_Wraper").style.marginRight="-500px";
+
+    /*detcting automation bar*/  
+    if(currentWidth > 640 && (document.getElementById("nav_automation_Wraper").style.marginRight == "0px"))
+    document.getElementById("nav_automation_Wraper").style.marginRight="-500px";
+  }
+
+  function showProductMenu(){
+    document.getElementById("nav_product_Wraper").style.marginRight="0px";
+  }
+
+  function closeFirstTwo(){
+    document.getElementById("nav_product_Wraper").style.marginRight="-500px"; //for closing product sidebar
+      //for closing main side bar
+    var a = window.setTimeout(function(){
+      document.getElementById("navWraper").style.marginRight="-500px";
+    },300)
+  }
+
+function showMainSidebar(){
+  document.getElementById("nav_product_Wraper").style.marginRight="-500px";
+  document.getElementById("navWraper").style.marginRight="0px";
+}
+
+/****solution*/
+function showSolutionMenu(){
+  document.getElementById("nav_solution_Wraper").style.marginRight="0px"; 
+}
+
+function showMain()
+{
+  document.getElementById("nav_solution_Wraper").style.marginRight="-500px"; 
+  document.getElementById("navWraper").style.marginRight="0px";
+}
+document.getElementById("copyRight").innerHTML=" &nbsp Designed  By Bishwajeet Pandey";
+function close_solution_and_main()
+{
+  document.getElementById("nav_solution_Wraper").style.marginRight="-500px"; //for closing solution sidebar
+      //for closing main side bar
+    var a = window.setTimeout(function(){
+      document.getElementById("navWraper").style.marginRight="-500px";
+    },300)
+}
+
+function showAutomationMenu(){
+  document.getElementById("nav_automation_Wraper").style.marginRight="0px"; 
+} 
+function showMain_L(){
+  document.getElementById("nav_automation_Wraper").style.marginRight="-500px";
+  document.getElementById("navWraper").style.marginRight="0px";
+}
+function close_automation_and_main(){
+  document.getElementById("nav_automation_Wraper").style.marginRight="-500px"; //for closing automation sidebar
+      //for closing main side bar
+    var a = window.setTimeout(function(){
+      document.getElementById("navWraper").style.marginRight="-500px";
+    },300) 
+}
+</script>
+
+<script>
+  
+ 
+  function showSearchPage(){
+    document.getElementById("for_search_only").style="display:none";
+    document.getElementById("full_page_search_bar").style="margin-top:0px";
+  }
+  function HideSearchPage(){
+
+    document.getElementById("full_page_search_bar").style="margin-top:-5000px";
+    document.getElementById("for_search_only").style="display:block";
+  }
+
+ 
+</script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+//global settings
+AOS.init({
+  offset: 230  ,
+  once: false 
+});
+  </script>
+  <script>
+  var typed = new Typed('#typed', {
+    stringsElement: '#typed-strings',
+    showCursor: false,
+  cursorChar: '',
+  loop: true,
+  loopCount: Infinity,
+  typeSpeed: 20
+  });
+</script>
+</body>
+</html>
+
+
